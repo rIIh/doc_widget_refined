@@ -199,6 +199,6 @@ String? getDescription(String name, List<FieldElement> fields) {
       return hasDocumentation
           ? removeDocumentationComment(field.documentationComment)
           : null;
-  }
+  } 
   return null;
 }
